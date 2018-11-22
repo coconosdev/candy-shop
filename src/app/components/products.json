@@ -1,0 +1,902 @@
+[
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "041RSYQUQC",
+    "producto": 41229,
+    "precio": 40
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 2000,
+    "categoria": "Chile",
+    "subcategoria": "CGRDE6QGQJ",
+    "producto": 73537,
+    "precio": 60
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 1000,
+    "categoria": "Queso",
+    "subcategoria": "GJNPPLJ9YM",
+    "producto": 60474,
+    "precio": 14
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 1000,
+    "categoria": "Queso",
+    "subcategoria": "GJNPPLJ9YM",
+    "producto": 70423,
+    "precio": 60
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "041RSYQUQC",
+    "producto": 15078,
+    "precio": 46
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "Z5L4TRRTJP",
+    "producto": 94576,
+    "precio": 84
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 4000,
+    "categoria": "Chiclosos",
+    "subcategoria": "QEZSVUKU37",
+    "producto": 24186,
+    "precio": 33
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 4000,
+    "categoria": "Chiclosos",
+    "subcategoria": "QEZSVUKU37",
+    "producto": 80341,
+    "precio": 76
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 2000,
+    "categoria": "Chile",
+    "subcategoria": "3ZQ1CFPJW1",
+    "producto": 61647,
+    "precio": 44
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 2000,
+    "categoria": "Chile",
+    "subcategoria": "3ZQ1CFPJW1",
+    "producto": 34361,
+    "precio": 51
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 1000,
+    "categoria": "Queso",
+    "subcategoria": "RDXH0290MI",
+    "producto": 49649,
+    "precio": 51
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 8000,
+    "categoria": "Piñata",
+    "subcategoria": "TK6NM8SWDT",
+    "producto": 54493,
+    "precio": 30
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "9LHK42E1UR",
+    "producto": 56808,
+    "precio": 81
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "2ZGTN6TUAO",
+    "producto": 98894,
+    "precio": 71
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "Z5L4TRRTJP",
+    "producto": 77384,
+    "precio": 42
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 7000,
+    "categoria": "Fiesta",
+    "subcategoria": "T7I7ELQROL",
+    "producto": 66192,
+    "precio": 55
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 6000,
+    "categoria": "Paletas",
+    "subcategoria": "SM6Q0CS1AV",
+    "producto": 29204,
+    "precio": 69
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 2000,
+    "categoria": "Chile",
+    "subcategoria": "3ZQ1CFPJW1",
+    "producto": 43111,
+    "precio": 90
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 1000,
+    "categoria": "Queso",
+    "subcategoria": "RDXH0290MI",
+    "producto": 59531,
+    "precio": 32
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 2000,
+    "categoria": "Chile",
+    "subcategoria": "WK3HHXBY78",
+    "producto": 20876,
+    "precio": 20
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 6000,
+    "categoria": "Paletas",
+    "subcategoria": "DGSCEK65TE",
+    "producto": 49084,
+    "precio": 99
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 9000,
+    "categoria": "Botana",
+    "subcategoria": "K09KQL2KF4",
+    "producto": 20211,
+    "precio": 39
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 8000,
+    "categoria": "Piñata",
+    "subcategoria": "BFNXKK91TZ",
+    "producto": 23979,
+    "precio": 96
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 2000,
+    "categoria": "Chile",
+    "subcategoria": "WK3HHXBY78",
+    "producto": 25710,
+    "precio": 43
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "041RSYQUQC",
+    "producto": 89310,
+    "precio": 86
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 8000,
+    "categoria": "Piñata",
+    "subcategoria": "BFNXKK91TZ",
+    "producto": 15507,
+    "precio": 55
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 6000,
+    "categoria": "Paletas",
+    "subcategoria": "N2Z2A78I65",
+    "producto": 59215,
+    "precio": 85
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 1000,
+    "categoria": "Queso",
+    "subcategoria": "NTYCXUGOW4",
+    "producto": 81682,
+    "precio": 45
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 4000,
+    "categoria": "Chiclosos",
+    "subcategoria": "QEZSVUKU37",
+    "producto": 17820,
+    "precio": 34
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "D78X09DJQP",
+    "producto": 83108,
+    "precio": 55
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "9LHK42E1UR",
+    "producto": 56199,
+    "precio": 35
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "9LHK42E1UR",
+    "producto": 60717,
+    "precio": 62
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 8000,
+    "categoria": "Piñata",
+    "subcategoria": "TK6NM8SWDT",
+    "producto": 60352,
+    "precio": 14
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 7000,
+    "categoria": "Fiesta",
+    "subcategoria": "YV4XI0MAJY",
+    "producto": 66969,
+    "precio": 45
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "041RSYQUQC",
+    "producto": 93764,
+    "precio": 90
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 7000,
+    "categoria": "Fiesta",
+    "subcategoria": "T7I7ELQROL",
+    "producto": 55846,
+    "precio": 96
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 2000,
+    "categoria": "Chile",
+    "subcategoria": "CGRDE6QGQJ",
+    "producto": 44610,
+    "precio": 13
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "C0RSOVU5B6",
+    "producto": 81195,
+    "precio": 18
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 4000,
+    "categoria": "Chiclosos",
+    "subcategoria": "QEZSVUKU37",
+    "producto": 52893,
+    "precio": 63
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 8000,
+    "categoria": "Piñata",
+    "subcategoria": "BFNXKK91TZ",
+    "producto": 12678,
+    "precio": 22
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 2000,
+    "categoria": "Chile",
+    "subcategoria": "CGRDE6QGQJ",
+    "producto": 99063,
+    "precio": 18
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "Z5L4TRRTJP",
+    "producto": 43524,
+    "precio": 90
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "2ZGTN6TUAO",
+    "producto": 76092,
+    "precio": 100
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 9000,
+    "categoria": "Botana",
+    "subcategoria": "JNVHM3EEPI",
+    "producto": 77078,
+    "precio": 31
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 8000,
+    "categoria": "Piñata",
+    "subcategoria": "HIR5DSCDFJ",
+    "producto": 93180,
+    "precio": 76
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "Z5L4TRRTJP",
+    "producto": 61366,
+    "precio": 64
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 2000,
+    "categoria": "Chile",
+    "subcategoria": "CGRDE6QGQJ",
+    "producto": 43974,
+    "precio": 23
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "2ZGTN6TUAO",
+    "producto": 32194,
+    "precio": 91
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 8000,
+    "categoria": "Piñata",
+    "subcategoria": "HIR5DSCDFJ",
+    "producto": 77066,
+    "precio": 75
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 1000,
+    "categoria": "Queso",
+    "subcategoria": "NTYCXUGOW4",
+    "producto": 42686,
+    "precio": 17
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "C0RSOVU5B6",
+    "producto": 86531,
+    "precio": 24
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 7000,
+    "categoria": "Fiesta",
+    "subcategoria": "LO5IS5N8J0",
+    "producto": 70268,
+    "precio": 99
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "Z5L4TRRTJP",
+    "producto": 31662,
+    "precio": 46
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "2ZGTN6TUAO",
+    "producto": 87561,
+    "precio": 64
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "9LHK42E1UR",
+    "producto": 47700,
+    "precio": 12
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 8000,
+    "categoria": "Piñata",
+    "subcategoria": "HIR5DSCDFJ",
+    "producto": 33169,
+    "precio": 89
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 7000,
+    "categoria": "Fiesta",
+    "subcategoria": "T7I7ELQROL",
+    "producto": 27111,
+    "precio": 28
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "041RSYQUQC",
+    "producto": 17311,
+    "precio": 33
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 1000,
+    "categoria": "Queso",
+    "subcategoria": "NTYCXUGOW4",
+    "producto": 31494,
+    "precio": 39
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 9000,
+    "categoria": "Botana",
+    "subcategoria": "K09KQL2KF4",
+    "producto": 67922,
+    "precio": 65
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 8000,
+    "categoria": "Piñata",
+    "subcategoria": "BFNXKK91TZ",
+    "producto": 45957,
+    "precio": 86
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 9000,
+    "categoria": "Botana",
+    "subcategoria": "K09KQL2KF4",
+    "producto": 88430,
+    "precio": 26
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 6000,
+    "categoria": "Paletas",
+    "subcategoria": "DGSCEK65TE",
+    "producto": 55589,
+    "precio": 46
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 2000,
+    "categoria": "Chile",
+    "subcategoria": "CGRDE6QGQJ",
+    "producto": 99842,
+    "precio": 10
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 7000,
+    "categoria": "Fiesta",
+    "subcategoria": "T7I7ELQROL",
+    "producto": 15427,
+    "precio": 52
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 1000,
+    "categoria": "Queso",
+    "subcategoria": "NTYCXUGOW4",
+    "producto": 95005,
+    "precio": 70
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 6000,
+    "categoria": "Paletas",
+    "subcategoria": "SM6Q0CS1AV",
+    "producto": 29855,
+    "precio": 58
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 4000,
+    "categoria": "Chiclosos",
+    "subcategoria": "1R8LTT54VU",
+    "producto": 10371,
+    "precio": 76
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "2ZGTN6TUAO",
+    "producto": 58804,
+    "precio": 32
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 8000,
+    "categoria": "Piñata",
+    "subcategoria": "TK6NM8SWDT",
+    "producto": 41429,
+    "precio": 17
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 7000,
+    "categoria": "Fiesta",
+    "subcategoria": "LO5IS5N8J0",
+    "producto": 47611,
+    "precio": 21
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 1000,
+    "categoria": "Queso",
+    "subcategoria": "NTYCXUGOW4",
+    "producto": 16073,
+    "precio": 36
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 7000,
+    "categoria": "Fiesta",
+    "subcategoria": "LO5IS5N8J0",
+    "producto": 98639,
+    "precio": 93
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 9000,
+    "categoria": "Botana",
+    "subcategoria": "K09KQL2KF4",
+    "producto": 93434,
+    "precio": 80
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 7000,
+    "categoria": "Fiesta",
+    "subcategoria": "T7I7ELQROL",
+    "producto": 37322,
+    "precio": 30
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "D78X09DJQP",
+    "producto": 51292,
+    "precio": 12
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 4000,
+    "categoria": "Chiclosos",
+    "subcategoria": "A5REV83CZZ",
+    "producto": 98321,
+    "precio": 16
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 9000,
+    "categoria": "Botana",
+    "subcategoria": "K09KQL2KF4",
+    "producto": 30989,
+    "precio": 72
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 4000,
+    "categoria": "Chiclosos",
+    "subcategoria": "A5REV83CZZ",
+    "producto": 50615,
+    "precio": 50
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "9LHK42E1UR",
+    "producto": 11355,
+    "precio": 48
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "Z5L4TRRTJP",
+    "producto": 84824,
+    "precio": 64
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 6000,
+    "categoria": "Paletas",
+    "subcategoria": "SM6Q0CS1AV",
+    "producto": 12311,
+    "precio": 46
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "D78X09DJQP",
+    "producto": 46246,
+    "precio": 43
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 1000,
+    "categoria": "Queso",
+    "subcategoria": "RDXH0290MI",
+    "producto": 55594,
+    "precio": 78
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 3000,
+    "categoria": "Limón",
+    "subcategoria": "041RSYQUQC",
+    "producto": 90828,
+    "precio": 26
+  },
+  {
+    "familia_id": 100,
+    "familia": "Papas",
+    "categoria_id": 2000,
+    "categoria": "Chile",
+    "subcategoria": "WK3HHXBY78",
+    "producto": 11472,
+    "precio": 42
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 6000,
+    "categoria": "Paletas",
+    "subcategoria": "N2Z2A78I65",
+    "producto": 64560,
+    "precio": 56
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "9LHK42E1UR",
+    "producto": 93078,
+    "precio": 28
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 7000,
+    "categoria": "Fiesta",
+    "subcategoria": "LO5IS5N8J0",
+    "producto": 70408,
+    "precio": 67
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 4000,
+    "categoria": "Chiclosos",
+    "subcategoria": "A5REV83CZZ",
+    "producto": 57465,
+    "precio": 95
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 8000,
+    "categoria": "Piñata",
+    "subcategoria": "TK6NM8SWDT",
+    "producto": 15673,
+    "precio": 39
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 6000,
+    "categoria": "Paletas",
+    "subcategoria": "N2Z2A78I65",
+    "producto": 93520,
+    "precio": 84
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "9LHK42E1UR",
+    "producto": 88074,
+    "precio": 82
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 5000,
+    "categoria": "Gomitas",
+    "subcategoria": "9LHK42E1UR",
+    "producto": 89507,
+    "precio": 47
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 7000,
+    "categoria": "Fiesta",
+    "subcategoria": "YV4XI0MAJY",
+    "producto": 43450,
+    "precio": 35
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 4000,
+    "categoria": "Chiclosos",
+    "subcategoria": "QEZSVUKU37",
+    "producto": 56350,
+    "precio": 52
+  },
+  {
+    "familia_id": 200,
+    "familia": "Dulces",
+    "categoria_id": 6000,
+    "categoria": "Paletas",
+    "subcategoria": "SM6Q0CS1AV",
+    "producto": 57833,
+    "precio": 58
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 7000,
+    "categoria": "Fiesta",
+    "subcategoria": "T7I7ELQROL",
+    "producto": 96387,
+    "precio": 41
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 7000,
+    "categoria": "Fiesta",
+    "subcategoria": "LO5IS5N8J0",
+    "producto": 47658,
+    "precio": 82
+  },
+  {
+    "familia_id": 300,
+    "familia": "Surtidos",
+    "categoria_id": 7000,
+    "categoria": "Fiesta",
+    "subcategoria": "LO5IS5N8J0",
+    "producto": 19830,
+    "precio": 21
+  }
+]
