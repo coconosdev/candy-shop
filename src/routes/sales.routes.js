@@ -10,9 +10,20 @@ router.get('/', async (req, res) => {
 
 router.get('/:date', async (req, res) => {
   const date = req.params.date + 'T00:00:00.000Z';
-  const sales = await Sale.find({
+  let sales = await Sale.find({
     fecha: {
       $gte : date,
+    }
+  });
+  sales = sales.sort((a,b) =>{
+    if (a.fecha<b.fecha) {
+      return -1;
+    }
+    if (a.fecha>b.fecha) {
+      return 1;
+    }
+    if (a.fecha==b.fecha) {
+      return 0;
     }
   });
   res.json(sales);
@@ -21,10 +32,21 @@ router.get('/:date', async (req, res) => {
 router.get('/:date1/:date2', async (req, res) => {
   const date1 = req.params.date1 + 'T00:00:00.000Z';
   const date2 = req.params.date2 + 'T00:00:00.000Z';
-  const sales = await Sale.find({
+  let sales = await Sale.find({
     fecha: {
       $gte : date1,
       $lte : date2,
+    }
+  });
+  sales = sales.sort((a,b) =>{
+    if (a.fecha<b.fecha) {
+      return -1;
+    }
+    if (a.fecha>b.fecha) {
+      return 1;
+    }
+    if (a.fecha==b.fecha) {
+      return 0;
     }
   });
   res.json(sales);
@@ -34,6 +56,7 @@ router.get('/:date1/:date2', async (req, res) => {
   const sale = await Sale.findOne({producto_id: req.params.id});
   res.json(sale);
 }); */
+
 
 router.post('/', async (req, res) => {
   const { producto_id, fecha, venta, valor } = req.body;

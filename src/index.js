@@ -12,6 +12,8 @@ app.use(express.json());
 
 // Routes
 app.use('/api/sales', require('./routes/sales.routes'));
+app.use('/api/filterCantidad', require('./routes/filterCantidad.routes'));
+app.use('/api/filterTotal', require('./routes/filterTotal.routes'));
 
 // Static files
 app.use(express.static(path.join(__dirname, '../public')));

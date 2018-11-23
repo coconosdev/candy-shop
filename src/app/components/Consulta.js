@@ -1,88 +1,112 @@
 import React, { Component } from 'react';
-import DatePicker from "react-datepicker";
+import ConsultaCantidad from './ConsultaCantidad';
+import ConsultaTotal from './ConsultaTotal';
+import ConsultaFecha from './ConsultaFecha';
 import moment from 'moment';
-import "react-datepicker/dist/react-datepicker.css";
-import './Consulta.css'
+
+const Spinner = () =>{
+  return (
+    <div className="text-center">
+      <img src="https://thumbs.gfycat.com/PotableEmbarrassedFrenchbulldog-size_restricted.gif" alt="Loading"></img>
+    </div>
+  )
+}
 
 class Consulta extends Component {
   constructor(props){
     super(props);
     this.state = {
-      opcion: 1,
-      fechaInicial: new Date(),
-      fechaFinal: new Date(),
       data: [],
+      loading: false,
+      opcion: '1',
     };
     this.onHandleSelect = this.onHandleSelect.bind(this);
-    this.handleChangeInicial = this.handleChangeInicial.bind(this);
-    this.handleChangeFinal = this.handleChangeFinal.bind(this);
-    this.sendQuery = this.sendQuery.bind(this);
+    this.sendQueryFecha = this.sendQueryFecha.bind(this);
+    this.sendQueryCantidad = this.sendQueryCantidad.bind(this);
+    this.sendQueryTotal = this.sendQueryTotal.bind(this);
   };
   onHandleSelect(e) {
     this.setState({
       opcion: e.target.value
     })
   }
-  handleChangeInicial(date) {
+  sendQueryFecha(fechaInicial, fechaFinal, opcion){
     this.setState({
-      fechaInicial: date
+      loading: true,
+      data: [],
     });
-  }
-  handleChangeFinal(date) {
-    this.setState({
-      fechaFinal: date
-    });
-  }
-  sendQuery(){
-    const fechaInicial = moment(this.state.fechaInicial).format('YYYY-MM-DD');
-    const fechaFinal = moment(this.state.fechaFinal).format('YYYY-MM-DD');
-    if (this.state.opcion == 1) {
+
+    if (opcion == 1) {
       fetch(`/api/sales/${fechaInicial}`)
         .then(res => res.json())
         .then(result => {
           this.setState({
-            data: result
-          })
+            data: result,
+            loading: false,
+          });
         })
         .catch(err => console.log(err));
     }
-    if (this.state.opcion == 2) {
+    if (opcion == 2) {
       fetch(`/api/sales/${fechaInicial}/${fechaFinal}`)
         .then(res => res.json())
         .then(result => {
           this.setState({
-            data: result
-          })
+            data: result,
+            loading: false,
+          });
         })
         .catch(err => console.log(err));
     }
   }
+  sendQueryCantidad(cantidad1, cantidad2){
+    this.setState({
+      loading: true,
+      data: [],
+    });
+    fetch(`/api/filterCantidad/${cantidad1}/${cantidad2}`)
+      .then(res => res.json())
+      .then(result => {
+        this.setState({
+          data: result,
+          loading: false,
+        });
+      })
+      .catch(err => console.log(err));
+  }
+  sendQueryTotal(total1, total2){
+    this.setState({
+      loading: true,
+      data: [],
+    });
+    fetch(`/api/filterTotal/${total1}/${total2}`)
+      .then(res => res.json())
+      .then(result => {
+        this.setState({
+          data: result,
+          loading: false,
+        });
+      })
+      .catch(err => console.log(err));
+  }
   render(){
     return (
       <div>
-        <h3>Consultas</h3>
-        <div className="select-row">
-          <select 
-            className="form-control"
-            value={this.state.opcion}
-            placeholder="Seleccione una opción"
-            onChange={this.onHandleSelect}>
-            <option value="1">Apartir de una fecha</option>
-            <option value="2">Rango de fechas</option>
-          </select>
-          <DatePicker
-            dateFormat="dd/MMM/yyyy"
-            selected={this.state.fechaInicial}
-            onChange={this.handleChangeInicial}/>
-          {
-            this.state.opcion === '2' && 
-            <DatePicker
-              dateFormat="dd/MMM/yyyy"
-              selected={this.state.fechaFinal}
-              onChange={this.handleChangeFinal}/>
-          }
-          <button className="btn btn-info" onClick={this.sendQuery}>Consultar</button>
-        </div>
+        <select 
+          className="form-control form-top"
+          value={this.state.opcion}
+          placeholder="Seleccione una opción"
+          onChange={this.onHandleSelect}>
+          <option value="1">Filtar por cantidad</option>
+          <option value="2">Filtrar por total</option>
+          <option value="3">Filtrar por fechas</option>
+        </select>
+        {this.state.opcion === '1' && <ConsultaCantidad query={this.sendQueryCantidad}/>}
+        {this.state.opcion === '2' && <ConsultaTotal query={this.sendQueryTotal}/>}
+        {this.state.opcion === '3' && <ConsultaFecha query={this.sendQueryFecha}/>}
+        {
+          this.state.loading && <Spinner></Spinner>
+        }
         {
           (this.state.data.length > 0) &&
           <table className="table table-striped">
@@ -96,7 +120,6 @@ class Consulta extends Component {
             </thead>
             <tbody>
               {
-                
                 this.state.data.map((obj, i) => {
                   return (
                     <tr key={i}>

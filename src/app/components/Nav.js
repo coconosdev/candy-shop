@@ -16,9 +16,6 @@ class Nav extends Component {
             <li className="nav-item">
               <Link className="nav-link" to='/consulta'>Consulta</Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" to='/grafica'>Gráfica</Link>
-            </li>
           </ul>
         </div>
       </nav>

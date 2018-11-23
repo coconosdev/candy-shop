@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import productosJson from './products.json';
-import ventasJson from './sales.json';
 
 class Sales extends Component {
   constructor(props){
@@ -15,27 +14,7 @@ class Sales extends Component {
     this.onHandleInput = this.onHandleInput.bind(this);
     this.onSell = this.onSell.bind(this);
   };
-  fillDatabase(){
-    for(let i = 0; i<1000; i++){
-      const venta = {
-        producto_id: ventasJson[i].producto_id,
-        fecha: this._randomDate(new Date(2018, 0, 1), new Date()),
-        venta: ventasJson[i].venta,
-        valor: ventasJson[i].valor,
-      };
-      fetch('/api/sales', {
-        method: 'POST',
-        body: JSON.stringify(venta),
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json'
-        }
-      })
-        .then(res => res.json())
-        .then(data => console.log(data))
-        .catch(err => console.log(err));
-    }
-  }
+
   onHandleSelect(e) {
     const filtered = productosJson.filter((obj)=> Number(e.target.value) === obj.producto)[0];
     this.setState({
@@ -45,6 +24,9 @@ class Sales extends Component {
     });
   }
   onHandleInput(e){
+    if (e.target.value > 99) {
+      e.target.value = 99;
+    }
     this.setState({
       cantidad: e.target.value,
       total: this.state.precio * e.target.value,
@@ -53,7 +35,6 @@ class Sales extends Component {
   onSell(){
     const venta = {
       producto_id: this.state.producto,
-      fecha: this._randomDate(new Date(2018, 0, 1), new Date()),
       venta: this.state.cantidad,
       valor: this.state.total
     };
@@ -67,13 +48,13 @@ class Sales extends Component {
     })
       .then(res => res.json())
       .then(data => {
-        console.log(data);
         this.setState({
           producto: '',
           precio: 0,
           cantidad: 1,
           total: 0,
         });
+        M.toast({html: 'Venta satisfactoria!'});
       })
       .catch(err => console.log(err));
   }
@@ -89,12 +70,12 @@ class Sales extends Component {
           <select 
             className="form-control"
             value={this.state.producto}
-            placeholder="Seleccione un producto"
             name="producto" onChange={this.onHandleSelect}>
+            <option value="" defaultValue disabled hidden >Seleccione un producto</option>
             {
               productosJson.map((obj) => {
                 return (
-                  <option value={obj.producto} key={obj.producto}>{obj.familia} {obj.categoria}</option>
+                  <option value={obj.producto} key={obj.producto}>{obj.familia} {obj.categoria} ${obj.precio}</option>
                 )
               })
             }
@@ -106,14 +87,16 @@ class Sales extends Component {
         </div>
         <div className="form-group">
           <label>Cantidad</label>
-          <input type="number" onChange={this.onHandleInput} name="cantidad" min="1" max="99" placeholder="1" className="form-control"/>
+          <input type="number" onChange={this.onHandleInput} value={this.state.cantidad} name="cantidad" min="1" max="99" placeholder="1" className="form-control"/>
         </div>
         <div className="form-group">
           <label>Total</label>
           <input type="text" name="total" value={this.state.total} disabled={true} className="form-control"/>
         </div>
         <div className="form-group">
-          <button className="btn btn-success" onClick={this.onSell}>Vender</button>
+          <button className="btn btn-success"
+            disabled={this.state.producto == ''} 
+            onClick={this.onSell}>Vender</button>
         </div>
       </div>
     );
